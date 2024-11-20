@@ -6,6 +6,7 @@ body {
   background-size: 400% 400%;
   animation: gradientAnimation 8s ease infinite;
   height: 100vh;
+  font-family: "Montserrat", sans-serif;
 }
 
 @keyframes gradientAnimation {
@@ -80,6 +81,7 @@ body {
   text-align: center;
   outline: none;
   transition: border-color 0.3s, box-shadow 0.3s;
+  font-family: "Montserrat", sans-serif;
 }
 
 .curr_select:focus,
