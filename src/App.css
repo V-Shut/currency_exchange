@@ -25,12 +25,13 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 800px;
-  height: 250px;
+  width: 500px;
+  height: 500px;
   max-width: 90%;
   background: linear-gradient(135deg, #6c5ce7, #00bcd4);
   border-radius: 30px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
@@ -124,4 +125,9 @@ body {
 .curr_select:hover,
 .curr_input:hover {
   border-color: #ff4081;
+}
+
+.correlation {
+  color: white;
+  text-align: center;
 }
